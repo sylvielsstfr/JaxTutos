@@ -1,8 +1,8 @@
 import os
 import sys
 
-rootPath_to_JaxTutos_localrepository = '/sps/lsst/users/campagne/'
-rootPath_to_JaxTutos_conda_env = '/sps/lsst/users/campagne/anaconda3/envs/'
+rootPath_to_JaxTutos_localrepository = '/pbs/throng/lsst/users/dagoret/desc/TUTORIALS/'
+rootPath_to_JaxTutos_conda_env = '/pbs/throng/lsst/users/dagoret/my_anacondas/miniconda/envs/'
 homePath = os.environ.get("HOME")
 
 sys.path = [rootPath_to_JaxTutos_localrepository + "JaxTutos", '',               
